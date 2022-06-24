@@ -1,0 +1,23 @@
+.nav-logo{
+    width: 100px;
+    height: 65px;
+}
+
+.login{
+    text-decoration: none;
+    color: #0000008C;
+    font-size: 16px;
+}
+
+.body-logo{
+    width: 500px;
+    height: 300px;
+    opacity: 80%;
+}
+
+.first-slide{
+    display: flex;
+    flex-direction: row;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
