@@ -1,6 +1,7 @@
+
 .nav-logo{
-    width: 100px;
-    height: 65px;
+    width: 90px;
+    height: 60px;
 }
 
 .login{
@@ -18,6 +19,13 @@
 .first-slide{
     display: flex;
     flex-direction: row;
-
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    border-radius: 0px;
+    border-color: rgb(26, 39, 238);
+    border: none;
+    max-width: 500px;
+    height: 550px;
 }
