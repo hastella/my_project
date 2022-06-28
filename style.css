@@ -1,13 +1,23 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
 
+.navbar-bg {
+    background-color: rgba(0, 255, 255, 0.452)"
+}
 .nav-logo{
     width: 90px;
     height: 60px;
 }
 
+.navbar-nav a:hover{
+    color: #0DCAF0;
+}
+
 .login{
     text-decoration: none;
     color: #0000008C;
-    font-size: 16px;
 }
 
 .body-logo{
@@ -19,7 +29,6 @@
 .first-slide{
     display: flex;
     flex-direction: row;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card{
@@ -28,4 +37,48 @@
     border: none;
     max-width: 500px;
     height: 550px;
+}
+
+.newsletter{
+    height: 250px;
+    background-color:rgba(211, 211, 211, 0.199);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.btn-subs:hover{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.btn-footer:hover {
+    color: #0DCAF0;
+}
+
+.footer-info{
+    font-size: 0.8rem;
+    font-family:'Jeju Myeongjo', serif;
+}
+
+.row{
+   list-style: none;
+}
+
+.col{
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    color: #0d77f0;
+    float: left;
+}
+
+.copyrights{
+    font-size: 0.65rem;
 }
