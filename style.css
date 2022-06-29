@@ -59,6 +59,7 @@ body{
 .card{
     width: 100%;
     height: auto;
+    border: none;
 }
 
 .newsletter{
@@ -103,7 +104,7 @@ footer{
 
 @media screen and (max-width: 48rem) {
 
-    .fa-regular{
+    .fa-lg{
         display: none;
     }
 
@@ -119,4 +120,6 @@ footer{
     .footer-row{
         display:none;
     }
+
+
 }
