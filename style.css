@@ -103,11 +103,7 @@ footer{
 @media screen and (max-width: 48rem) {
 
     .fa-circle-user{
-        display: none;
-    }
-
-    .login{
-        text-decoration: underline;
+        padding-left: 15px;
     }
 
     .body-logo{
