@@ -121,5 +121,8 @@ footer{
         display:none;
     }
 
+    .card{
+        column-count: 1;
+    }
 
 }
