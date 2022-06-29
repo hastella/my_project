@@ -102,7 +102,7 @@ footer{
 
 @media screen and (max-width: 48rem) {
 
-    .fa-lg{
+    .fa-circle-user{
         display: none;
     }
 
