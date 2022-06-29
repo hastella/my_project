@@ -58,7 +58,6 @@ body{
 
 .card{
     width: 100%;
-    height: auto;
     border: none;
 }
 
@@ -119,10 +118,6 @@ footer{
 
     .footer-row{
         display:none;
-    }
-
-    .card{
-        column-count: 1;
     }
 
 }
