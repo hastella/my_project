@@ -101,6 +101,15 @@ footer{
 }
 
 @media screen and (max-width: 48rem) { /** 스크린 사이즈가 48rem이 최대일때 (0-48) **/
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-toggler{
+        display: flex;
+        justify-content: flex-end;
+    }
 
     .fa-circle-user{
         padding-left: 15px;
@@ -111,13 +120,11 @@ footer{
         padding-bottom: 10px;
     }
 
-    .footer-row{
-        display:none;
-    }
-
     .video {
-        width: 100%;
+        width: 230%;
         max-height: 100%;
+        position: relative;
+        right: 15rem;
       }
 
     .card {
