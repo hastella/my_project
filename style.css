@@ -107,9 +107,14 @@ footer{
         padding: 0;
     }
 
+    .footer-first-line {
+        margin-top: 10px;
+    }
+
     .nav-logo{
         display: flex;
         justify-content: center;
+        margin-top: 0px;
     }
 
     .navbar-toggler{
