@@ -115,9 +115,10 @@ footer .nav-logo {
         padding: 0 1rem 0 1rem;
     }
 
-    .nav-logo{
+    nav .nav-logo{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
+        margin-left: 0px;
     }
 
     .fa-circle-user{
