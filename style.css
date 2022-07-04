@@ -102,6 +102,11 @@ footer{
 }
 
 @media screen and (max-width: 48rem) { /** 스크린 사이즈가 48rem이 최대일때 (0-48) **/
+
+    .container-fluid{
+        padding: 0;
+    }
+
     .nav-logo{
         display: flex;
         justify-content: center;
@@ -129,7 +134,7 @@ footer{
       }
 
     .card {
-        width: 24.5rem;
+        width: 100%;
         padding: 0 30px 0 30px;
     }
 }
