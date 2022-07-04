@@ -119,4 +119,8 @@ footer{
         width: 100%;
         max-height: 100%;
       }
+
+    .card {
+        padding: 0 30px 0 30px;
+    }
 }
