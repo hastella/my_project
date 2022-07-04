@@ -12,9 +12,11 @@ body{
 .navbar-bg {
     background-color: #0DCAF0;
 }
-.nav-logo{
+
+nav .nav-logo{
     width: 90px;
     height: 60px;
+    margin-left: 5rem;
 }
 
 .navbar-nav a:hover{
@@ -81,6 +83,11 @@ footer{
     color: #0DCAF0;
 }
 
+footer .nav-logo {
+    width: 90px;
+    height: 60px;
+}
+
 .footer-info{
     font-size: 0.8rem;
     font-family:'Jeju Myeongjo', serif;
@@ -104,18 +111,13 @@ footer{
 
 @media screen and (max-width: 48rem) { /** 스크린 사이즈가 48rem이 최대일때 (0-48) **/
 
-    .container-fluid{
-        padding: 0;
+    .navbar {
+        padding: 0 1rem 0 1rem;
     }
 
     .nav-logo{
-        margin-top: 0px;
-        margin-bottom: 5%;
-    }
-
-    .navbar-toggler{
-        display: flex;
-        justify-content: flex-end;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .fa-circle-user{
@@ -131,11 +133,12 @@ footer{
 
     .card {
         width: 24.5rem;
-        padding: 0 30px 0 30px;
+        padding: 0 30px 5px 30px;
     }
 
     .footer-first-line {
         text-align: center;
+        padding-bottom: 1rem;
     }
     
     .col-4 {
