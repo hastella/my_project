@@ -115,7 +115,12 @@ footer .nav-logo {
 @media screen and (max-width: 48rem) { /** 스크린 사이즈가 48rem이 최대일때 (0-48) **/
 
     .navbar {
-        padding: 0 1rem 0 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav .container-fluid {
+        margin: 0.5rem 1.5rem 0.5rem 1.5rem;
     }
 
     nav .nav-logo{
