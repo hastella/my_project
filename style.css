@@ -13,10 +13,13 @@ body{
     background-color: #0DCAF0;
 }
 
-nav .nav-logo{
+nav .container-fluid {
+    margin: 0 5rem 0 5rem;
+}
+
+.nav-logo{
     width: 90px;
     height: 60px;
-    margin-left: 5rem;
 }
 
 .navbar-nav a:hover{
