@@ -58,6 +58,7 @@ body{
 .card{
     width: 100%;
     border: none;
+    padding: 0 50px 0 50px;
 }
 
 .newsletter{
@@ -128,6 +129,7 @@ footer{
       }
 
     .card {
+        width: 24.5rem;
         padding: 0 30px 0 30px;
     }
 }
